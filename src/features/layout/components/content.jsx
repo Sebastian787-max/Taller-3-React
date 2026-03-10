@@ -85,6 +85,16 @@ export const Content = () => {
         <Typography>
           La guitarra perfecta para ti.
         </Typography>
+        <Button
+          variant="contained"
+          color="primary"
+          href="https://github.com/Sebastian787-max/Segundo-taller-de-React.git"
+          target="_blank"
+          rel="noopener noreferrer"
+          sx={{ mt: 2 }}
+        >
+          Ver Repositorio en GitHub
+        </Button>
       </Box>
 
       {/* Cartas de productos */}
